@@ -1,0 +1,8 @@
+FIRSTN = LAMBDA(
+    VALUE,
+    N,
+    TOP, 
+    IF(TOP,
+    LARGE(VALUE,SEQUENCE(N)),
+    SMALL(VALUE,SEQUENCE(N)))
+);
